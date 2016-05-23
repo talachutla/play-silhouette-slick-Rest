@@ -33,10 +33,9 @@ Silhouette Seed Template Slick API REST
     }
 
 
-
-  POST  /user
-  HEADERS :
-     X-Auth-Token : TOKEN                {
+    POST  /user
+    HEADERS :
+    X-Auth-Token : TOKEN                {
                                            "userID": "8d01c38b-6e4f-4777-8078-64a2e81f7cae",
                                            "loginInfo": {
                                              "providerID": "credentials",
@@ -49,7 +48,7 @@ Silhouette Seed Template Slick API REST
                                          }
 
 
-  POST  /signIn
+    POST  /signIn
                                                   {
                                                     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyLVRORzFrN1FsWEw4XC9vRUFCN3dONVpWN2xzaEVEOU9LR2VPem1XdksxcGZyeVZkZ2xTcVFoQkRzdnd4NmM1akFOUU5oWm1td2FvaVZDN2x4OEJPb21TeFJSVDJ2WklNaUJyTlo5IiwiaXNzIjoicGxheS1hbmd1bGFyLXNpbGhvdWV0dGUiLCJleHAiOjE0NjYyNDg1MjksImlhdCI6MTQ2MzY1NjUyOSwianRpIjoiYjk2N2MyMWY4MGU0N2U1MTIyZmM3Yzc1M2M4OTE5ZGQzMmQ0NjQ3Njc3OTdkMzBkYjE2MDMwNzYwN2FlNTUyN2UxZWZhNDlkNGM3N2JjMzNkOTkxMDYxMWRlNGNkZjg5MGViNjhmZTVlNmE3OWEwMmZkZWJmMTBjZGI4Yjg2NjAzMjIwMmYzNjI3MmI1NWYwNTFhZGUyYTUzYjY3ZTk0NGI0MjhjOWYwYzIxNWIzYTIyYzI0MzUzYzY2MTUzYzJhYzUwMjMxYjQ0YjU5Y2RjZDVjZGQzYmMxOWI0ZTkyZGM1MjQwODBkOGIxMzlkZmQ3Y2I0YjhhMjA0MDZlNGY5YSJ9.zvtoGgxsLDwngagEZ2FYM4B-nOMzYy-6sCw0C8brblM"
                                                   }
