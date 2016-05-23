@@ -3,7 +3,7 @@ import com.typesafe.sbt.SbtScalariform._
 import scalariform.formatter.preferences._
 
 name := "play-silhouette-seed"
-
+  
 version := "4.0.0-BETA4"
 
 scalaVersion := "2.11.8"
